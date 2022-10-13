@@ -1,1 +1,1 @@
-task 1 intro to C
+intro to C
