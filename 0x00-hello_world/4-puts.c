@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*
+ * returns "Programming is like building a multilingual puzzle"
+ */
 int main(void)
 
 {

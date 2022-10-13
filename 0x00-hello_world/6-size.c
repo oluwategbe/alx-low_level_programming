@@ -1,5 +1,13 @@
 #include <stdio.h>
-int main(void){
+/**
+ *
+ *  * main - Entry point
+ *
+ *   * Return: Always 0
+ *
+ *    */
+int main(void)
+{
 	char c;
 	int i;
 	long int li;
