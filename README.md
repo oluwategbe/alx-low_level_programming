@@ -1,1 +1,1 @@
-# alx-low_level_programming
+task 1 intro to C
