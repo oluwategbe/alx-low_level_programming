@@ -1,13 +1,14 @@
 #include <stdio.h>
 /**
  * main - entry point
+ *
  * Return: 0 (success)
  */
 int main(void)
 {
-	int alph = 'z';
+	int alph;
 
-	for (alph; alph >= 'a'; alph--)
+	for (alph = 'z'; alph >= 'a'; alph--)
 	{
 		putchar(alph);
 	}

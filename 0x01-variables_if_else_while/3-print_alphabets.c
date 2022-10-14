@@ -1,20 +1,20 @@
 #include <stdio.h>
 /**
- * main - entry point 
+ * main - entry point
  *
  * Return: 0 (success)
  */
 int main(void)
 {
-	char low = 'a';
-	char high = 'A';
+	char low;
+	char high;
 
-	for (low; low <= 'z'; low++)
+	for (low = 'a'; low <= 'z'; low++)
 	{
 		putchar(low);
 	}
 
-	for (high; high <= 'Z'; high++)
+	for (high = 'A'; high <= 'Z'; high++)
 	{
 		putchar(high);
 	}
