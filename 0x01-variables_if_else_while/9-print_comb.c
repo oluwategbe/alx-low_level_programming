@@ -1,20 +1,21 @@
 #include <stdio.h>
 /**
  * main - entry point
- * return: 0 (success)
+ *
+ * Return: 0 (success)
  */
 int main(void)
 {
-	int start = '0';
+	int start;
 
-	for (start; start <= '9'; start++)
+	for (start = 0; start <= 9; start++)
 	{
-		putchar(start);
-		if (start != '9')
+		putchar(start + '0');
+		if (start < 9)
 		{
 			putchar(',');
+			putchar(' ');
 		}
-		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
