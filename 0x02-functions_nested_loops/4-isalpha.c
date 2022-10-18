@@ -7,23 +7,12 @@
  */
 int _isalpha(int c)
 {
-	int start;
-	int end;
-	int ret = 0;
-
-	for(start = 'a'; start <= 'z'; start++)
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
-		for(end = 'A'; end <= 'Z'; end++)
-		{
-			if (c == start || c == end)
-			{
-				ret = 1;
-				return (ret);
-			}
-			else
-			{
-				return (ret);
-			}
-		}
+		return (1);
+	}
+	else
+	{
+		return (0);
 	}
 }
