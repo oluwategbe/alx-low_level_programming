@@ -7,12 +7,12 @@
 void times_table(void)
 {
 	int row, column, mul;
-	
+
 	for (row = 0; row <= 9; row++)
 	{
 		_putchar(48);
 		for (column = 1; column <= 9; column++)
-		{	
+		{
 			mul = row * column;
 			_putchar(44);
 			_putchar(32);
