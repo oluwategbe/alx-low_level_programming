@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * jack_bauer - prints every minute of the day
+ * jack_bauer - prints all minutes in a day 
  *
- * Return: every min of the day
+ * Return: 0 (success).
  */
 void jack_bauer(void)
 {
@@ -10,7 +10,7 @@ void jack_bauer(void)
 
 	for (i = 0; i <= 2; i++)
 	{
-		for (j = 0; j <= 0; j++)
+		for (j = 0; j <= 9; j++)
 		{
 			for (k = 0; k <= 5; k++)
 			{
