@@ -18,6 +18,11 @@ int _isalpha(int c)
 			if (c == start || c == end)
 			{
 				ret = 1;
+				return (ret);
+			}
+			else
+			{
+				return (ret);
 			}
 		}
 	}
