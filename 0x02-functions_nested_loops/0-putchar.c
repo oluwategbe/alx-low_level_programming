@@ -13,8 +13,7 @@ int main(void)
 	do {
 		_putchar(word[a]);
 		a++;
-	}
-	while (a < 8);
+	} while (a < 8);
 	_putchar('\n');
 
 	return (0);
