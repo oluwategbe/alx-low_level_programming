@@ -8,8 +8,8 @@
 
 /**
  * print_addr - prints address
- * @ptr: magic
- * Return: nothing
+ * @ptr: magic.
+ * Return: no return.
  */
 void print_addr(char *ptr)
 {
@@ -53,8 +53,8 @@ void print_addr(char *ptr)
 
 /**
  * print_type - prints type
- * @ptr: magic
- * Return: nothing
+ * @ptr: magic.
+ * Return: no return.
  */
 void print_type(char *ptr)
 {
@@ -82,8 +82,8 @@ void print_type(char *ptr)
 
 /**
  * print_osabi - prints osabi
- * @ptr: magic
- * Return: nothing
+ * @ptr: magic.
+ * Return: no return.
  */
 void print_osabi(char *ptr)
 {
@@ -105,8 +105,8 @@ void print_osabi(char *ptr)
 
 /**
  * print_version - prints version
- * @ptr: magic
- * Return: nothing
+ * @ptr: magic.
+ * Return: no return.
  */
 void print_version(char *ptr)
 {
@@ -121,8 +121,8 @@ void print_version(char *ptr)
 }
 /**
  * print_data - prints data
- * @ptr: magic
- * Return: nothing
+ * @ptr: magic.
+ * Return: no return.
  */
 void print_data(char *ptr)
 {
@@ -136,9 +136,9 @@ void print_data(char *ptr)
 		printf(", big endian\n");
 }
 /**
- * print_magic - prints magic info
- * @ptr: magic
- * Return: nothing
+ * print_magic - prints magic info.
+ * @ptr: magic.
+ * Return: no return.
  */
 void print_magic(char *ptr)
 {
@@ -154,9 +154,9 @@ void print_magic(char *ptr)
 }
 
 /**
- * check_sys - check the version system
- * @ptr: magic
- * Return: nothing
+ * check_sys - check the version system.
+ * @ptr: magic.
+ * Return: no return.
  */
 void check_sys(char *ptr)
 {
@@ -182,9 +182,9 @@ void check_sys(char *ptr)
 }
 
 /**
- * check_elf - check if it is an elf file
- * @ptr: magic
- * Return: 1 if it is an elf file. 0 if not
+ * check_elf - check if it is an elf file.
+ * @ptr: magic.
+ * Return: 1 if it is an elf file. 0 if not.
  */
 int check_elf(char *ptr)
 {
@@ -200,10 +200,10 @@ int check_elf(char *ptr)
 }
 
 /**
- * main - check the code for Holberton School students
- * @argc: number of arguments
- * @argv: arguments vector
- * Return: 0 (success)
+ * main - check the code for Holberton School students.
+ * @argc: number of arguments.
+ * @argv: arguments vector.
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
